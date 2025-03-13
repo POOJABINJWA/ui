@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -7,20 +6,27 @@
 
 .main_container{
     width: 100%;
+    border: 1pa solid red;
+    padding: 10px;
 }
 
 .header_row{
     height: 60px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:white;
-    padding: 10px 15px;
+    padding: 15px;
+    border: 1px solid blue;
 } 
 .col_manu{
-    width: 190px;
-    height: 56px;
+    width: 200px;
+    height: 56px; 
     display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
 }
 .manu_bar{
     width: 40px;
@@ -28,6 +34,7 @@
     align-items: center;
     padding: 10px;
     margin: 12px 0px 0px 0px;
+    border: 1px solid black;
 }
 
 .col1, .col2, .col3 {
@@ -45,16 +52,23 @@
     border-color: #777671;
 }  
 
-.logo_image{
-    width: 130px;
+.logo_text_div{
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center; 
+    border: 1px solid blueviolet;  
 }
 
-.logo_image img {
+/* .logo_image img {
     height: 100%;    
-} 
+}  */
+.txet_you{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    
+}
 
 .search_container{
     width:700px;
@@ -72,7 +86,7 @@
     align-items: center;
     margin: auto;
     padding: 15px;
-} 
+}  */ */
 
 .search_bar{
     width: 550px;
@@ -156,10 +170,14 @@
 /* moblie view media quray */
 
 @media  (max-width: 576px) {
+
+    .main_container{
+        width:100%
+    }
     .header_row {
-        padding: 10px;
         align-items: center;
-        border: 1px solid red;
+        border: 1px solid blue;
+        width:100%;
     }
     .col_manu {
         width: 100%;
