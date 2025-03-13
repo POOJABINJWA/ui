@@ -74,6 +74,7 @@
     width:700px;
     height: 56px;
     display: flex;
+    border: 1px solid yellow;
 
 } 
 
@@ -99,15 +100,13 @@
 
 .search_button {
     width: 40px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    margin: 0px;
     margin-left: 3px;
-    padding: 37px; 
-     
+    padding: 3px;
+
 }
 .search_button img{ 
     width:40px;
