@@ -75,7 +75,7 @@
 } 
 
 .search_bar{
-    width: 550px;
+    width: 540px;
     height:40px;
     border: 1px solid silver;
     background: transparent;
@@ -89,9 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
-    margin: 0px;
-    margin-left: 3px;
+    border-radius:10px;
     padding: 37px; 
      
 }
