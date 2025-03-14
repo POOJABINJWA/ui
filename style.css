@@ -1052,12 +1052,11 @@ h4{
     
     .coll_shorts_div{
         width: 90%;
-        margin-left: 0px;
         margin-bottom: 10px;
-        padding: 3px;
+        padding: 1px;
     }
 
-    .coll_shorts1_img{
+    .coll_shorts_img{
         height: 200px;
         
     }
@@ -1150,7 +1149,7 @@ h4{
 
     .col2-col img {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 18px;
         padding: 3px;
     } 
    
@@ -1162,7 +1161,7 @@ h4{
     .col1-tablet{
         display: block;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 15px;
         font-family: Arial, sans-serif;
        
     }
