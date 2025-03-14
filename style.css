@@ -159,18 +159,18 @@
     .header_row {
         padding: 10px;
         align-items: center;
-        border: 1px solid red;
+    
     }
     .col_manu {
         width: 100%;
         justify-content: center;
-        border: 1px solid blue;
+        
     }
 
     .manu_bar {
-        width: 35px;
-        height: 35px;
-        border: 1px solid black;
+        width: 30px;
+        height: 30px;
+        padding: 7px;
     }
 
     .logo_image {
@@ -204,22 +204,23 @@
 
     .mic_icon {
         width: 30px;
-        border: 1px solid f;
+        border: 1px solid silver;
+        margin: 12px 7px;
+
     }
 
     .dow_div {
         width: 100%;
         justify-content: center;
-        gap: 10px;
-        border: 1px solid salmon;
+    
     }
 
     .download_icon,
     .notification_icon,
     .profile {
-        width: 35px;
-        height: 35px;
-        border: 1px saddlebrown rosybrown;
+        width: 30px;
+        height: 30px;
+        
     }
 
     .download_icon img,
@@ -804,7 +805,8 @@ h4{
 
 .col2-col img{
     margin-top: 15px;
-    width: 30px;
+    width: 25px;
+    padding: 2px;
 } 
 
 .col1-col{
@@ -985,11 +987,11 @@ h4{
     }
 
     .col_moblie_manu{
-        width: 40px;
-        padding: 18px 5px;
+        width: 30px;
+        padding: 12px;
     }
     .col_moblie_manu img{
-        width: 30px;
+        width: 25px;
     }
 
     .main_body {
@@ -1014,7 +1016,9 @@ h4{
     }     
 
     .col2-col img{
-        margin-top: 18px;  
+        margin-top: 18px;
+        width:25px;
+         
     } 
 
     .row_second {
@@ -1050,6 +1054,7 @@ h4{
         width: 90%;
         margin-left: 0px;
         margin-bottom: 10px;
+        padding: 3px;
     }
 
     .coll_shorts1_img{
@@ -1133,6 +1138,10 @@ h4{
         font-family:Arial, sans-serif;
     
     }
+    .logo-text{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
 
     .col1-col {
         display: none;
@@ -1141,7 +1150,8 @@ h4{
 
     .col2-col img {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 10px;
+        padding: 3px;
     } 
    
 
@@ -1160,7 +1170,9 @@ h4{
     .coll_shorts_div {
         width: 300px;
         padding: 3px; 
-        margin-left: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        object-fit: cover;
     }
 
     .coll-shorts1 img{
