@@ -324,7 +324,8 @@
 
 .sidebar-col{
     width:225px;
-    padding: 10px 10px;
+    padding: 0px 10px 0px 0px;
+    margin: 5px;
 }
 
 .menu_item_home{
@@ -991,7 +992,7 @@ h4{
     display: flex;
     line-height: 50px;
     background-color: #0000000D;
-    margin: 12px 12px 12px 0px;
+    /* margin: 12px 12px 12px 0px; */
     gap:5px;
     
 }
@@ -1031,25 +1032,31 @@ h4{
 .row_seconed{ 
     padding: 10px; 
     display: flex; 
+    /* border: 1px solid ; */
+    /* flex-wrap: wrap; */
     /* justify-content: space-between;  */
 }
 
-.coll-container {
-    /* display: flex; */
-    gap: 10px; 
+.coll-box1{
+    /* padding: 10px; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* .coll-box1{
-    width: 100%;    
-}
+/* .coll-box2{
+    border: 1px solid blueviolet;
+}  */
 
-.coll-box2{
-    width: 100%;    
-} */
-
-.col1_image img {
+.image_text { 
     width: 100%;
-    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.image_text img {
+    
+    width: 100%; 
+   
+    object-fit: cover;
 }
 
 .title_logo img {
@@ -1083,17 +1090,16 @@ h4{
 
 /* row  three */
 .row_three {
-    width: 100%; 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
     background-color: #f5f5f5;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .row.shots img {
-    width: 100px; 
-    height: auto;
+    width: 100%; 
+   
 }
 
 .three_dot img {
