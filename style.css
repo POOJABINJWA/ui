@@ -323,9 +323,9 @@
 }
 
 .sidebar-col{
-    width:225px;
+    width:230px;
     padding: 0px 10px 0px 0px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .menu_item_home{
@@ -1037,26 +1037,27 @@ h4{
     /* justify-content: space-between;  */
 }
 
-.coll-box1{
-    /* padding: 10px; */
+.coll , .box1{
+    padding: 10px;
+    width: 20%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* .coll-box2{
+.coll, .box2{
     border: 1px solid blueviolet;
-}  */
+    padding: 10px;
+    width: 20%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}  
 
 .image_text { 
     width: 100%;
-    overflow: hidden;
 
 }
 
 .image_text img {
     
     width: 100%; 
-   
-    object-fit: cover;
 }
 
 .title_logo img {
@@ -1095,10 +1096,11 @@ h4{
     align-items: center; 
     background-color: #f5f5f5;
     margin-top: 10px;
+    border: 1px solid ;
 }
 
-.row.shots img {
-    width: 100%; 
+.row_shots img {
+    width: 100px; 
    
 }
 
@@ -1112,48 +1114,32 @@ h4{
 
 .row_four{
     display: flex;
-    padding: 1px;
-    margin-top: 20px;
-    justify-content: center;    
+    justify-content: center; 
+    margin-top: 20px;   
 }
 
-.coll_shorts_div {
-    width: 230px;
-    border-radius: 20px;
-    margin-left: 8px;
-    padding: 10px;
-    border-radius: 10px;
-     text-align: center;    
+.coll1, .shorts1 {
+    border: 1px solid blueviolet;
+    padding: 9px;
+    width: 14.28%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }  
 
-.coll_shorts_div2{
-    width: 230px;
-    border-radius: 20px;
-    margin-left: 8px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-}
-.coll-shorts1{
+.coll1, .shorts2{
+    border: 1px solid blueviolet;
+    padding: 9px;
+    width: 14.28%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}  
+
+.coll-shorts{
     width: 100%;
-    border-radius: 10px;
+    
 } 
 
-.coll-shorts2{
+.coll-shorts img{
     width: 100%;
-    border-radius: 10px;
-} 
-
-.coll-shorts1 img{
-    height: 320px;
-    width: 100%;
-    border-radius: 10px;
-}
-
-.coll-shorts2 img{
-    height: 320px;;
-    width: 100%;
-    border-radius: 10px;
+    
 }
 
 .shorts_text{
