@@ -1048,7 +1048,7 @@ h4{
 }
 
 .col2-col img{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 25px;
     padding: 2px;
 } 
@@ -1344,7 +1344,7 @@ h4{
     .you_image,
     .line{
         display: none;
-    }
+    } 
 
     h4{
         display: none;
@@ -1366,6 +1366,7 @@ h4{
         font-size: 14px;
         color: #333;
         margin: 0;
+
     }
 
 
@@ -1375,15 +1376,21 @@ h4{
 
     .row_frist {
         align-items: center;
-        text-align: center;
+        justify-content: space-between;
+
         
     }
 
-    .col1-moblie{
-        display: block;
+    .col1-moblie {
+        display:block;
         font-weight: bold;
-        font-family:Arial, sans-serif;
-    
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        line-height: 30px;
+        background-color: #0000000D;
+        border-radius: 5px;
+        padding: 5px 5px 5px 0px;
+        text-align: center;
     }
     .logo-text{
         font-size: 12px;
@@ -1403,11 +1410,17 @@ h4{
    
 
     .col1-tablet{
-        display: block;
+        display:block;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 14px;
         font-family: Arial, sans-serif;
-       
+        line-height: 30px;
+        background-color: #0000000D;
+        border-radius: 5px;
+        padding: 5px 5px 5px 0px;
+        text-align: center;
+        gap:5px;
+
     }
     
     /* .coll_shorts_div {
@@ -1443,7 +1456,7 @@ h4{
     } 
     .manu_item_moblie{
         display: block;
-    } 
+    }  
     .coll1-shorts2{
         display: none;
     }
