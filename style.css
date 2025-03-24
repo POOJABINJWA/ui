@@ -23,9 +23,14 @@
     height: 56px;
     display: flex;
     border: 1px solid ;
+    justify-content: space-between;
+    align-items: center;
 }
 .manu_bar{
     width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid red;
    
     
@@ -34,17 +39,19 @@
 .inner_box{
     width:40px;
     height: 40px;
-    border: 1px solid;
-    /* align-items: center; */
+    /* border: 1px solid;
     margin-left: 2px;
-    margin-top: 5px;
+    margin-top: 5px; */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
     
 }
-.manu_image{
+ .manu_image{
     width:24px;
     height:24px;
     padding: 7px;
-}
+} 
 
 
 .logo_image{
@@ -66,7 +73,7 @@
 }
 
 .logo_image img {
-    height: 100%;    
+    width: 100px;
 }  
 
 .search_container{
@@ -79,10 +86,7 @@
     width:640px;
     display: flex;
     height: 40px;
-    /* border: 1px solid slategray; */
     align-items: center;
-    /* border-radius: 20px; */
-    justify-content: space-between;
     padding: 0px 4px;
     margin: 0px 0px 0px 40px;
     
@@ -92,8 +96,7 @@
     width:536px;
     height: 40px;
     align-items: center;
-    padding: 0px 04px 0px 16px;
-    margin: 0px 0px 0px 32px;
+    padding: 0px 4px 0px 16px;
     line-height: 40px;
     border: 1px solid darkorchid;
     border-top-left-radius: 20px; 
@@ -107,8 +110,6 @@
 .search_bar{
     width: 100%;
     font-size: 16px;
-    height: 24px;
-    border: none;
 
 
 }    
@@ -135,7 +136,6 @@
     width: 40px;
     height: 40px;
     border-radius: 25px;
-    /* border: 1px solid ; */
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -144,122 +144,117 @@
 } 
 .mic_icon img{
     width: 24px;
-    height: 25px;
+    height: 24px;
     margin: 0px;
 }  
 
 .dow_div{
-    width:213px;
+    width:200px;
     height: 56px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
-    gap:10px;
+    justify-content: space-between;
 }
 
 .download_icon {
-    width: 97px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    gap:5px;
-    border-radius: 25px;
-    background-color: #f5efef;
-    
+    width: 40px;
+    height: 40px;
 } 
 
-.text{
-    font-size: 15px;
-    font-weight: bold;
-    padding-bottom: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-
+.download_icon img{
+    width:30px;
+    margin: 0px;
 }
+
 .notification_icon {
     width: 40px;
     height: 40px;  
 }
 .notification_icon img{
-    width:25px;
-    margin: 5px;   
+    width:30px;
+    margin: 0px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;   
 }
 
 .profile img{
-    width:24px;
-    margin: 8px;
-    
-    
+    width:30px;
+    margin: 0px;
 } 
 /* moblie view media quray */
 
 @media  (max-width: 576px) {
     .header_row {
-        padding: 10px;
+        padding: 5px;
         align-items: center;
-        background-color:  blue;
+        /* background-color:  blue; */
+        flex-wrap: nowrap;
+        justify-content: space-between;
     
     }
+
     .col_manu {
         width: 100%;
         justify-content: center;
         
     }
 
+    /* .logo_image {
+        width: 100px;
+        margin: auto;
+    
+    }  */
     .manu_bar {
-        width: 30px;
-        height: 30px;
-        padding: 7px;
+        width: 40px;
+    }
+    .inner_box {
+        width: 35px;
+        height: 35px;
     }
 
-    .logo_image {
-        width: 100px;
-        display: none;
-    
+    .manu_image {
+        width: 20px;
+        height: 20px;
     }
 
     .search_container {
         width: 100%;
-        justify-content: center;
+        align-items: center;
+    
 
     }
 
     .search_box {
-        width: 90%;
-        height: 35px;
+        width: 100%;
+        margin: 5px;
     }
-
-    .search_bar {
-        width: 80%;
-        height: 35px;
-        padding: 5px;
-
+    .search {
+        width:100%;
     }
     .search_button {
-        width: 30px;
-        height: 30px;
-        padding: 5px;
+        width: 50px;   
 
     }
 
     .mic_icon {
         width: 30px;
-        border: 1px solid silver;
-        margin: 12px 7px;
-
-    }
+        height: 30px;
+    } 
 
     .dow_div {
         width: 100%;
-        justify-content: center;
+       justify-content: space-between;
     
     }
 
     .download_icon,
     .notification_icon,
     .profile {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         
     }
 
@@ -268,6 +263,11 @@
     .profile img {
         width: 25px;
     }
+
+
+    
+
+    
 }
 
 /* Min Pad media quray veiw */
@@ -1034,11 +1034,11 @@ h4{
     border-radius: 10px;
     background-color: #0000000D; 
     align-items: center;
-    line-height: 32px;
+    line-height: 40px;
 }
 
 .col2-col img{
-    margin-top: 8px;
+    margin-top: 10px;
     width: 25px;
     padding: 2px;
 } 
@@ -1082,8 +1082,8 @@ h4{
 }
 
 .image_text img {
-    
-    width: 100%; 
+    width: 100%;
+    padding: 5px; 
 }
 
 .title_logo img {
@@ -1190,8 +1190,8 @@ h4{
 @media  (max-width: 575px){
 
     .sidebar-col{
-        width:55px;
-        padding: 3px;
+        width:64px;
+        margin: 0px;
     } 
 
     .menu_item_home,
@@ -1211,19 +1211,24 @@ h4{
         display: none;
     }
 
-    .menu_item_moblie{
-        width: 204px;
+    /* .menu_item_moblie{
+        width: 20px;
         height: 40px;
         display: flex;
         margin-top: 10px;
-    }
+    } */
 
     .col_moblie_manu{
         width: 30px;
-        padding: 12px;
+        padding: 8px;
     }
     .col_moblie_manu img{
         width: 25px;
+    }
+    h5{
+        font-size: 10px;
+        margin: 0px;
+
     }
 
     .main_body {
@@ -1240,6 +1245,11 @@ h4{
         font-weight: bold;
         font-size: 14px;
         font-family: Arial, sans-serif;
+        line-height: 30px;
+        background-color: #0000000D;
+        border-radius: 5px;
+        padding: 5px 5px 5px 0px;
+        text-align: center;
     }
 
     .col1-col,
@@ -1248,8 +1258,11 @@ h4{
     }     
 
     .col2-col img{
-        margin-top: 18px;
         width:25px;
+        background-color: #0000000D;
+        border-radius: 10px;
+        /* padding: 5px 5px 5px 0px; */
+        text-align: center;
          
     } 
 
@@ -1277,18 +1290,18 @@ h4{
         height: auto;
     } 
 
-    .coll_shorts_div2 {
+    .coll1-shorts2 {
         display: none;
  
     }  
     
-    .coll_shorts_div{
+    .coll-shorts{
         width: 90%;
         margin-bottom: 10px;
         padding: 1px;
     }
 
-    .coll_shorts_img{
+    .coll-shorts img{
         height: 200px;
         
     }
@@ -1316,6 +1329,7 @@ h4{
     .sidebar-col {
         width: 55px;
         padding: 3px;
+        margin: 0px;
     }
 
     .menu_item_home,
