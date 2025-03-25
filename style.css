@@ -172,17 +172,6 @@ p{
     
     }
 
-    .col_manu {
-        /* width: 100%; */
-        /* justify-content: center; */
-        
-    }
-
-    /* .logo_image {
-        width: 100px;
-        margin: auto;
-    
-    }  */
     .manu_bar {
         width: 40px;
     }
@@ -192,15 +181,9 @@ p{
         padding: 5px;
     }
 
-    /* .manu_image {
-        width: 20px;
-        height: 20px;
-    } */
-
     .search_container {
         width: 100%;
         align-items: center;
-    
 
     }
 
@@ -213,7 +196,6 @@ p{
     }
     .search_button {
         width: 50px;   
-
     }
 
     .mic_icon {
@@ -223,8 +205,6 @@ p{
 
     .dow_div {
         width: 100%;
-       /* justify-content: space-between; */
-    
     }
 
     .download_icon,
@@ -240,10 +220,6 @@ p{
     .profile img {
         width: 25px;
     } 
-
-
-    
-
     
 }
 
@@ -266,29 +242,17 @@ p{
         padding: 5px;
     }
 
-
-    /* .logo_image {
-        width: 100px;
-    } */
-
     .search_container {
         width: 100%;
         align-items: center;
         
     }
-
     .search_box {
         width: 100%;
     }
     .search {
         width:100%;
     }
-
-    /* .search_bar {
-        width: 85%;
-        height: 45px;
-        padding: 8px;
-    } */
 
     .search_button {
         width: 40px;
@@ -336,7 +300,7 @@ p{
     width: 204px;
     height: 40px;
     display: flex;
-    border: red;
+
     padding: 5px;    
 }
 .menu_item_home:hover{
@@ -406,7 +370,7 @@ p{
 .line{
    width: 200px; 
    border-bottom: 1px solid slategrey;;
-   /* margin-top: 10px; */
+
 }   
 
 h5{
@@ -820,7 +784,7 @@ h4{
     font-family: Arial, sans-serif;
     color: #0f0f0f;
     padding: 10px;    
-} */
+}  */
 .icon_music{
     width: 64px;
     height: 24px;   
