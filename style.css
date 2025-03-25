@@ -167,7 +167,6 @@ p{
     .header_row {
         padding: 5px;
         align-items: center;
-        /* background-color:  blue; */
         flex-wrap: nowrap;
         justify-content: space-between;
     
